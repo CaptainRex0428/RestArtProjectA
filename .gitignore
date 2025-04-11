@@ -1,20 +1,58 @@
 # Prerequisites
 *.d
 
+# Directories
+.vs/
+.vscode/
+Binaries/
+bin/
+settings/
+
 # Compiled Object files
 *.slo
+
+# Files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.log
+Makefile
+
+*.lib
+*.pdb
+*.obj
+*.pch
+
+autom4te*
+*/config.cache
+*/config.log
+*/config.status
+*/configure~
+*/libtool
+*.deps
+*.dirstamp
+*.libs
 *.lo
 *.o
 *.obj
+*.la
+*.lai
+*.DS_Store
+*xcuserdata
+*.xcworkspace
 
 # Precompiled Headers
 *.gch
 *.pch
+*/SDL2_ttf.pc
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
+*/glfont
+*/showfont
 
 # Fortran module files
 *.mod
@@ -30,3 +68,7 @@
 *.exe
 *.out
 *.app
+example_assert_log.txt
+
+# Exclude
+!Scripts/premake
