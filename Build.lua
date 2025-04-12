@@ -15,3 +15,4 @@ workspace "RestArtProjectA"
 
 group "Project"
 	include "Project01/Project01.lua"
+	include "Project02/Project02.lua"
