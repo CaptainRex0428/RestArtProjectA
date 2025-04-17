@@ -1,5 +1,4 @@
-﻿// 制作一个"吐币机器"
-#include <iostream>
+﻿#include <iostream>
 
 // 函数定义 (兑换汇率的说明)
 int GetCoins(int cash)		// 输入两个int参数
