@@ -57,7 +57,7 @@ void template02()
 	std::cout << "*(ptr+5)(out of bound):" << *(ptr + 5) << std::endl;
 
 	delete[] ptr;
-	
+
 }
 
 
@@ -80,7 +80,7 @@ void template03()
 
 }
 
-int main(int argc, const char * argv[])
+int main(int argc, const char* argv[])
 {
 	//std::cout << "----------------template01----------------" << std::endl;
 	//template01();
