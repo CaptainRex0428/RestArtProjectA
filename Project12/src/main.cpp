@@ -79,15 +79,15 @@ void template04()
 
 int main(int argc, const char* argv[])
 {
-	//std::cout << "----------------template01----------------" << std::endl;
-	//template01();
+	std::cout << "----------------template01----------------" << std::endl;
+	template01();
 
-	//std::cout << std::endl;
+	std::cout << std::endl;
 
-	//std::cout << "----------------template02----------------" << std::endl;
-	//template02();
+	std::cout << "----------------template02----------------" << std::endl;
+	template02();
 
-	//std::cout << std::endl;
+	std::cout << std::endl;
 
 	std::cout << "----------------template03----------------" << std::endl;
 	template03();
